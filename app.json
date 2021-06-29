@@ -1,0 +1,25 @@
+{
+  "name": "fifa-proclubs-discord-bot",
+  "description": "A discord bot for fifa proclubs game that can be easily deployed to Heroku or your own server.",
+  "repository": "https://github.com/lonnyantunes/fifa-proclubs-discord-bot",
+  "logo": "https://discordapp.com/assets/2c21aeda16de354ba5334551a883b481.png",
+  "keywords": ["discord", "bot", "ruby", "heroku", "webhooks", "discord-bot", "discordrb"],
+  "env": {
+    "DISCORD_TOKEN": {
+      "description": "Your Discord Bot Token",
+      "required": true
+    },
+    "DEBUG_CHANNEL": {
+      "description": "Your channel ID to detect discord bot errors",
+      "required": true
+    },
+    "IS_DEBUG": {
+      "description": "Is your bot executed in a debug mode ?",
+      "required": true
+    },
+    "IS_VERBOSE": {
+      "description": "Is your bot executed in a verbose mode ?",
+      "required": true
+    }
+  }
+}
