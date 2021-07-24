@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: .
+    destination: /home/ec2-user/fifa-proclubs-discord-bot
+hooks:
+  ApplicationStart:
+    - location: scripts/ApplicationStart.sh
+      runas: ec2-user
