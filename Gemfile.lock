@@ -1,7 +1,7 @@
 GEM
   remote: https://lonnyantunes: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@rubygems.pkg.github.com/lonnyantunes/
   specs:
-    fifa-proclubs-apis (1.0.0)
+    fifa-proclubs-apis (1.1.1)
       artii (~> 2.1.2)
       gemoji (~> 3.0.1)
       pastel (~> 0.7.3)
@@ -83,12 +83,11 @@ GEM
 
 PLATFORMS
   x86_64-darwin-18
-  x86_64-linux
 
 DEPENDENCIES
   discordrb (= 3.3.0)
   dotenv (= 2.7.6)
-  fifa-proclubs-apis (= 1.0.0)!
+  fifa-proclubs-apis (= 1.1.1)!
 
 BUNDLED WITH
    2.2.21

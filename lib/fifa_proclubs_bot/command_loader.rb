@@ -13,6 +13,7 @@ module Fifa
           Commands::ClubRankTop100,
           Commands::ClubStats,
           Commands::ClubsRankTop100,
+          Commands::ClubMembers,
           Commands::PlayerDatasTop100,
           Commands::PlayerDatas
         ]
