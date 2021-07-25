@@ -23,4 +23,5 @@ jobs:
             --application-name Git_Application \
             --deployment-group-name development_group \
             --deployment-config-name CodeDeployDefault.OneAtATime \
+            --file-exists-behavior OVERWRITE \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
