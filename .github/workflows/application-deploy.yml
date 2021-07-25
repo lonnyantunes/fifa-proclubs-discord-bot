@@ -14,13 +14,11 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: eu-west-3
+          aws-region: ${{ secrets.AWS_REGION }}
      # Step 2
       - name: Create CodeDeploy Deployment
         id: deploy
-        run: |
-          echo ${{ secrets.AWS_REGION }}
-        
+        run: |        
           aws deploy create-deployment \
             --application-name Git_Application \
             --deployment-group-name development_gropup \
