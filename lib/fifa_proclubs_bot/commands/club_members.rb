@@ -43,7 +43,7 @@ module Fifa
               _event.send_embed do |e|
                 e.title = 'Club members'
                 e.color = 0xFF00FF
-                e.description = "List of members of the club '#{_club_name}'"
+                e.description = "List of members of '#{_club_name}'"
 
                 _club_members.each do |_member|
                   e.fields.push(Discordrb::Webhooks::EmbedField.new(name: _member.name, value: Emoji.find_by_alias(rand_emoji).raw, inline: true))

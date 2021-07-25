@@ -19,7 +19,7 @@ module Fifa
           if response
             response.message.content
           else
-            _event.respond '🟥 You took too long to write your club name! 🟥'
+            _event.respond '🟥 You took too long to write your club name!'
             nil
           end
         end
